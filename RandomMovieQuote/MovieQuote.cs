@@ -8,13 +8,12 @@ namespace MovieQuoteApp
     {
         private string QuoteText;
         private string Movie;
-        //  private int Year;
-
+       
         public MovieQuote(string quote, string movie)
         {
             QuoteText = quote;
             Movie = movie;
-            // Year = year;
+           
         }
         public void Display()
         {
